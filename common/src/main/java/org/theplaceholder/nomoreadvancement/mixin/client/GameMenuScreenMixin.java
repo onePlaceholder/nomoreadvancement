@@ -1,4 +1,4 @@
-package org.theplaceholder.nomoreadvancement.mixin;
+package org.theplaceholder.nomoreadvancement.mixin.client;
 
 import net.minecraft.client.gui.screen.GameMenuScreen;
 import net.minecraft.client.gui.screen.Screen;

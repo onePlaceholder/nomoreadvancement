@@ -10,18 +10,21 @@ authors="thePlaceholder"
 description='''
 Advancement... No More !!!™ is a Minecraft mod allowing Modpack Makers to remove ALL advancement.
 '''
-logoFile="assets/anm/icon.png"
+logoFile = "icon.png"
 
 [[dependencies.anm]]
-modId = "forge"
-mandatory = true
-versionRange = "[47,)"
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.anm]]
 modId = "minecraft"
-mandatory = true
-versionRange = "[1.20.1,)"
+type = "required"
+versionRange = "[1.21.1,)"
 ordering = "NONE"
 side = "BOTH"
+
+[[mixins]]
+config = "anm.mixins.json"

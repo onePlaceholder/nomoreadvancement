@@ -7,9 +7,9 @@
     "ServerAdvancementLoaderMixin"
   ],
   "client": [
-    "MinecraftClientMixin",
-    "GameOptionsMixin",
-    "GameMenuScreenMixin"
+    "client.MinecraftClientMixin",
+    "client.GameOptionsMixin",
+    "client.GameMenuScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1
