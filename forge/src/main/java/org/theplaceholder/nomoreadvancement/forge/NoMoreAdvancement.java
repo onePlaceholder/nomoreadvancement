@@ -1,4 +1,4 @@
-package org.theplaceholder.nomoreadvancement;
+package org.theplaceholder.nomoreadvancement.forge;
 
 import net.minecraftforge.fml.common.Mod;
 

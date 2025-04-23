@@ -15,13 +15,13 @@ logoFile="assets/anm/icon.png"
 [[dependencies.anm]]
 modId = "forge"
 mandatory = true
-versionRange = "[47,)"
+versionRange = "[40,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.anm]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.20.1,)"
+versionRange = "[1.18.2,)"
 ordering = "NONE"
 side = "BOTH"
